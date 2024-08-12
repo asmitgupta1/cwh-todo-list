@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "cwh-todo-list": {
+
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
