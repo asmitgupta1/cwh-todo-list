@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>angular-basic works!</h1>
+
+    <h3> String inetrepolation (only used for string)</h3>
+    <div class="container">
+        <p>{{test}}</p>
+    </div>
+
+    
+    <h3>Property Binding</h3>
+    <input type="text" [disabled]="isDisabled">
+
+    <input type="text" [(ngModel)] = "name" name="name" >
+    {{name }}
+
+    <div [ngStyle]="{'background-color':bgcolor}"> bgclor</div>
+    <div [ngClass]="className">  NGclass</div>
+
+
+    {{test | uppercase}}
+
+    {{test | lowercase}}
+
+    
+</div>

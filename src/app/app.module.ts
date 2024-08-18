@@ -8,6 +8,8 @@ import { TodoItemComponent } from './MyComponents/todo-item/todo-item.component'
 import { AddTodoComponent } from './MyComponents/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './MyComponents/about/about.component';
+import { AngularBasicComponent } from './MyComponents/angular-basic/angular-basic.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { AboutComponent } from './MyComponents/about/about.component';
     TodosComponent,
     TodoItemComponent,
     AddTodoComponent,
-    AboutComponent
+    AboutComponent,
+    AngularBasicComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule,
