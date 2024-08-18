@@ -9,7 +9,9 @@ import { AddTodoComponent } from './MyComponents/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './MyComponents/about/about.component';
 import { AngularBasicComponent } from './MyComponents/angular-basic/angular-basic.component';
-import { ObservableComponent } from './observable/observable.component';
+import { ObservableComponent } from './MyComponents/observable/observable.component';
+import { LoggingService } from './services/logging.service';
+;
 
 @NgModule({
   declarations: [
@@ -26,7 +28,7 @@ import { ObservableComponent } from './observable/observable.component';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [LoggingService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
